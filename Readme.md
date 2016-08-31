@@ -1,4 +1,4 @@
-#websocket 
+#websocket Demo 
 
 ---标准的 基于tomcat8 的 web动态项目。介绍 Websocket，js与后台java bean的通讯。
 

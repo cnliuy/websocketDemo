@@ -24,11 +24,17 @@
 		};
 	};
 	
+	
+	function sendMsg(){
+		ws.send("hello from client 来自客户端的问候 。");
+	}
 	</script>
 </head>
-<body>
+<body onload="init()">
+	<!--  
 	websocket 连接：
 	<input type="button" onclick="init()" value="点我啊">
-
+	-->
+	<input type="button" onclick="sendMsg()" value="sendMsg">
 </body>
 </html>
